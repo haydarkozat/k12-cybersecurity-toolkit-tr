@@ -1,0 +1,56 @@
+# --- HASSAS DOSYALAR ASLA COMMIT EDİLMESİN ---
+# Spesifik okul ismi geçen tüm dosyalar
+*-Hüyük.*
+*-Huyuk.*
+*-private.*
+*-internal.*
+*-gizli.*
+*-ozel.*
+
+# Tarama çıktıları
+nmap-*.txt
+nmap-*.xml
+openvas-*.xml
+nessus-*.nessus
+wireshark-*.pcap
+*.pcap
+*.pcapng
+
+# Yapılandırma dosyaları
+*-config.txt
+running-config*
+startup-config*
+
+# Doldurulmuş gizli envanter ve raporlar
+Donanim-Envanteri-*.xlsx
+Yazilim-Envanteri-*.xlsx
+Network-Diagram-*.drawio
+Detayli-Rapor-*.docx
+Yonetici-Ozeti-*.pptx
+Yol-Haritasi-*.xlsx
+Zafiyet-Listesi-Detay-*.xlsx
+
+# Klasörler
+**/private/
+**/internal/
+**/gizli/
+**/ozel/
+**/Hüyük*/
+**/Huyuk*/
+
+# --- Sistem dosyaları ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# --- Geçici ---
+*.tmp
+*.bak
+*.log
+~$*.docx
+~$*.xlsx
+~$*.pptx
